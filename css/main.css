@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  color: #fff;
+}
+
+div#calculadora {
+  width: 216px;
+  margin: 0px auto;
+  background-color: #333;
+}
+
+div#display {
+  text-align: right;
+}
+
+div#numeros {
+  width: 126px;
+  float: left;
+}
+
+div#oper {
+  width: 90px;
+  float: left;
+}
+
+div.tecla {
+  width: 40px;
+  height: 20px;
+  float: left;
+  background-color: #666;
+  margin: 1px 1px;
+  text-align: center;
+}
+
+div.tecla:hover {
+  background-color: #999;
+}
+
+div.tecla a {
+  text-decoration: none;
+  color: #fff;
+  width: 40px;
+  height: 20px;
+  display: inline-block;
+}
